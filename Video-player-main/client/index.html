@@ -1,0 +1,25 @@
+ 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Upload</title>
+</head>
+<body>
+    <h1>Upload Video</h1>
+    <form id="uploadForm">
+        <input type="text" id="title" placeholder="Video Title" required>
+        <input type="file" id="videofile" accept="video/*" required>
+        <button type="submit" id="uploadForm">Upload</button>
+    </form>
+
+    <h1>Videos</h1>
+    <button id="fetchVideos">Fetch Videos</button>
+    <div id="videoList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

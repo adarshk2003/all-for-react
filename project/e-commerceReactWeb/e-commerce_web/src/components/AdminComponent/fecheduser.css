@@ -1,0 +1,28 @@
+/* 
+.container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .filters {
+    gap: 1rem;
+  }
+  
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+   */

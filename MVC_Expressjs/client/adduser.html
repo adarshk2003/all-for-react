@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="./adduser.html">ADD USER</a>
+        <a href="./index.html">LOGIN</a>
+    </nav>
+    <div class="main-container">
+        <div class="form-container1">
+            <form onsubmit="adduser(event)" method="POST">
+                <div class="userformdiv"><span class="userform">AddUser</span></div>
+                <div class="form-row"><input type="text" name="name" id="name" placeholder="Enter your name"> <span
+                        class="clienterr" id="name-err"></span></div>
+                <div class="form-row"><input type="email" name="email" id="email" placeholder="Enter your email"> <span
+                        class="clienterr" id="email-err"></span>
+                </div>
+                <!-- <div class="form-row"><input type="password" name="password" id="pass"
+                        placeholder="Enter your password"> <span class="clienterr" id="pass-err"></span>
+                </div> -->
+                <div class="form-row"> <textarea name="dp" id="dp" placeholder="Profile url" rows="5"
+                        cols="30"></textarea> <span class="clienterr" id="email-err"></span>
+                </div>
+                <!-- <div class="form-row admincb">
+                    <div class="checkbox-wrapper-47">
+                        <input type="checkbox" onclick="togglecb()" name="cb" id="cb-47" />
+                        <label for="cb-47">Register as admin</label>
+                      </div>  
+                      <div class="small-line"></div>
+                </span>
+                </div> -->
+                <div class="form-row adminid_div"><input type="text" name="adminid" id="adminid" placeholder="Enter admin_id"> <span
+                    class="clienterr" id="name-err"></span></div>
+
+                <button class="submit" type="submit">submit</button></span>
+            </form>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

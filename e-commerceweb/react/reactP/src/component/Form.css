@@ -1,0 +1,26 @@
+input{
+    margin: 20px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(132, 177, 243);
+    border-radius: 10px;
+    transition: 0.3s;
+    color: black;
+}
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+input:hover{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color: rgb(45, 46, 46);
+    border-radius: 30px;
+    color: white;
+}

@@ -1,0 +1,75 @@
+/* Add this CSS to UserProfile.css */
+
+.user-profile {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the content */
+}
+
+.user-profile h1 {
+  text-align: center;
+}
+
+.user-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.user-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.image-upload {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  cursor: pointer;
+}
+
+.user-info {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-info label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.user-info span {
+  display: block;
+}
+
+.user-info input,
+.user-info textarea {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}

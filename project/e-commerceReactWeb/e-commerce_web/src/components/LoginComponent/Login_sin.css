@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+  box-sizing: border-box;
+}
+
+@keyframes signlogAni {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-10%);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.AllBody{
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  margin: 0;
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0;
+  color: #2C2C2C;
+  /* Black for text */
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+  color: #2C2C2C;
+  /* Black for text */
+}
+
+.signUP {
+  margin: 3px 0 45px;
+}
+
+span {
+  font-size: 12px;
+  margin: 10px;
+}
+
+a {
+  color: #A5A83E;
+  /* Olive Green */
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #2C2C2C;
+  /* Black on hover */
+}
+
+button {
+  border-radius: 20px;
+  border: none;
+  background-color: #D97C52;
+  /* Terracotta */
+  color: #FFFFFF;
+  /* White text on buttons */
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+}
+
+button.ghost {
+  background-color: transparent;
+  border-color: #FFFFFF;
+  /* White border */
+}
+
+form {
+  background-color: #FFFFFF;
+  /* White form background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+
+.LOGIN123 {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+}
+.ForgotPass{
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+}
+
+label {
+  font-size: 14px;
+}
+
+.container343 {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  width: 768px;
+  max-width: 100%;
+  min-height: 480px;
+  animation: signlogAni 1.5s ease-in-out;
+}
+
+.form-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.sign-in-container {
+  left: 0;
+  width: 50%;
+  z-index: 2;
+}
+
+.overlay-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 100;
+}
+
+/* Apply grayscale effect to background image using ::before pseudo-element */
+.overlay::before {
+  content: '';
+  /* Required for a pseudo-element */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url(/wonderful-girl-vintage-lush-.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 120px rgba(0, 0, 0, 0.8);
+  /* Elegant inner shadow */
+  z-index: -1;
+  background-color: black;
+  /* Ensure the image stays behind the text */
+}
+
+.overlay h1 {
+  color: #FFFFFF;
+  /* White text */
+}
+
+.overlay p {
+  color: #2C2C2C;
+  /* Black for text */
+}
+
+.overlay-panel {
+  position: absolute;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  top: 0;
+  height: 100%;
+  width: 50%;
+}
+
+.overlay-left,
+.overlay-right {
+  /* right: 0; */
+  transform: translateX(0);
+}
+
+.social-container {
+  margin: 20px 0;
+}
+
+.social-container a {
+  border: 1px solid #DDDDDD;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+}
+
+button:hover {
+  border-radius: 10px;
+  background-color: #2C2C2C;
+  /* Hover effect: Darken button background */
+}

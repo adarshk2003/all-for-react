@@ -1,0 +1,94 @@
+/* footer.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+
+footer {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+  border-top: 1px solid #dee2e6;
+}
+
+footer h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  background-color: #ffc107;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  font-family: 'Poppins', sans-serif; 
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer ul li a {
+  color: #343a40;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #ff6f61;
+}
+
+footer .social-icons a {
+  color: #343a40;
+  font-size: 1.25rem;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+  color: #ff6f61;
+}
+
+footer .subscribe-form input {
+  border: 0;
+  border-bottom: 1px solid #343a40;
+  padding: 5px 10px;
+  background: transparent;
+  outline: none;
+}
+
+footer .subscribe-form button {
+  background: none;
+  border: none;
+  color: #343a40;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+footer .subscribe-form button:hover {
+  color: #ff6f61;
+}
+
+footer .brand {
+    font-size: 80px;
+    font-family: 'Russo One', sans-serif;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+}
+
+footer p {
+  color: #343a40;
+}
+
+footer .footer-links a {
+  color: #343a40;
+  text-decoration: none;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+footer .footer-links a:hover {
+  color: #ff6f61;
+}
